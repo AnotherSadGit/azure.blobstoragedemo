@@ -54,7 +54,7 @@ namespace BlobQuickstartV12
             // Get values from the config given their key and their target type.
             string accountConnectionString = config.GetValue<string>("ConnectionStrings:AZURE_STORAGE_CONNECTION_STRING");
             string containerName = config.GetValue<string>("Settings:ContainerName");
-            string fileName = config.GetValue<string>("Settings:FileName");
+            string fileName = config.GetValue<string>("Settings:InputFileName");
 
             // Console.WriteLine($"AZURE_STORAGE_CONNECTION_STRING = {accountConnectionString}");
 
